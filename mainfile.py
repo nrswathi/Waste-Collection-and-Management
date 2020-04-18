@@ -19,7 +19,7 @@ mongo = PyMongo(app)
 
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'safetymeasure'
+app.config['MYSQL_PASSWORD'] = '***' #enter your password
 app.config['MYSQL_DB'] = 'wastedata'
 
 mysql = MySQL(app)

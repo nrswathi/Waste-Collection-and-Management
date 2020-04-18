@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/openscreen.css') }}">
+     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <meta charset="UTF-8">
+
+    <title>WASTE C & M</title>
+</head>
+<body>
+<div class="strip">
+{% include '_navbar.html' %}
+</div>
+<h1> WASTE COLLECTION AND MANAGEMENT</h1>
+<p>
+    <a href="/adminlogin"><input type="button" value="Login as Admin" class="button b1"></a>
+    <a href="/stafflogin"><input type="button" value="Login as Staff" class="button b2"></a>
+</p>
+
+</body>
+<!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+</script>
+<script src="//cdn.ckeditor.com/4.2.6/basic/ckeditor.js"></script>
+<script type="text/javascript"></script>-->
+</html>

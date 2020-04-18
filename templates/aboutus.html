@@ -1,0 +1,90 @@
+<head><link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/aboutus.css') }}"></head>
+<body>
+<div class="strip">
+{% include '_navbar.html' %}
+</div>
+<div class="wrapper row2">
+  <div id="container" class="clear">
+    <!-- ####################################################################################################### -->
+    <!-- ####################################################################################################### -->
+    <!-- ####################################################################################################### -->
+    <!-- ####################################################################################################### -->
+    <div id="about-us" class="clear">
+      <!-- ####################################################################################################### -->
+      <h2 id="about-intro" class="clear">
+        <h2 style="color:black; background-color: rgba(255,255,255,0.7); background-image: none; padding:30px;">About Us</h2>
+        <img src="static/css/aboutus_rvce.jpg" alt="RVCE Front view" class="center">
+        <h2 style="color:black; font-size: 30px;">Welcome! We are the waste collection and management team at RVCE. Our goal is to maintain a healthy and hygienic environment within the campus.</h2>
+      </h2>
+      </section>
+      <!-- ####################################################################################################### -->
+      <section id="team">
+        <h2 style="color:black; background-color: rgba(255,255,255,0.7); background-image: none; padding:30px;">Our Team</h2>
+        <ul class="clear" style="padding-left:80px;">
+          <li class="one_third first">
+            <figure><img src="static/css/girl1.jpg" alt="">
+              <figcaption>
+                <p class="team_name">Name: {{ todisplay[0]["name"] }} </p>
+                <p class="team_title">ID: {{ todisplay[0]["ID"] }}</p>
+                <p class="team_description">Contact: {{ todisplay[0]["contact"] }}</p>
+
+              </figcaption>
+            </figure>
+          </li>
+          <li class="one_third">
+            <figure><img src="static/css/boy2.jpg" alt="">
+              <figcaption>
+
+                <p class="team_name">Name: {{ todisplay[1]["name"] }}</p>
+                <p class="team_title">ID: {{ todisplay[1]["ID"] }}</p>
+                <p class="team_description">Contact: {{ todisplay[1]["contact"] }}</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="one_third">
+            <figure><img src="static/css/girl2.jpg" alt="">
+              <figcaption>
+                <p class="team_name">Name: {{ todisplay[2]["name"] }}</p>
+                <p class="team_title">ID: {{ todisplay[2]["ID"] }}</p>
+                <p class="team_description">Contact: {{ todisplay[2]["contact"] }}</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="one_third first">
+            <figure><img src="static/css/boy1.jpg" alt="">
+              <figcaption>
+                <p class="team_name">Name: {{ todisplay[3]["name"] }}</p>
+                <p class="team_title">ID: {{ todisplay[3]["ID"] }}</p>
+                <p class="team_description">Contact: {{ todisplay[3]["contact"] }}</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="one_third">
+            <figure><img src="static/css/girl3.jpg" alt="">
+              <figcaption>
+                <p class="team_name">Name: {{ todisplay[4]["name"] }}</p>
+                <p class="team_title">ID: {{ todisplay[4]["ID"] }}</p>
+                <p class="team_description">Contact: {{ todisplay[4]["contact"] }}</p>
+              </figcaption>
+            </figure>
+          </li>
+          <!--li class="one_third">
+            <figure><img src="static/css/boy1.jpg" alt="">
+              <figcaption>
+                <p class="team_name">Name: {{ todisplay[6]["name"] }}</p>
+                <p class="team_title">ID: {{ todisplay[6]["ID"] }}</p>
+                <p class="team_description">Contact: {{ todisplay[6]["contact"] }}</p>
+              </figcaption>
+            </figure>
+          </li-->
+        </ul>
+      </section>
+      <!-- ####################################################################################################### -->
+    </div>
+    <!-- ####################################################################################################### -->
+    <!-- ####################################################################################################### -->
+    <!-- ####################################################################################################### -->
+    <!-- ####################################################################################################### -->
+  </div>
+</div>
+</body>
